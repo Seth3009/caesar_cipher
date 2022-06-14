@@ -1,4 +1,4 @@
-def caesar_cipher(sentence, num)
+def caesar_cipher(sentence, num=0)
     shifted_words = []
     alp = Array('a'..'z')
     low_case = Hash[alp.zip(alp.rotate(num))]
